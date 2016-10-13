@@ -1,0 +1,156 @@
+.my-name {
+  float: left;
+  overflow: hidden;
+  /*border: 1px solid #ddd;*/
+}
+
+.my-name h1 {
+	color: white;
+}
+
+.nav {
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 0 auto;
+  /*border: 1px solid #ddd;*/
+}
+
+.nav ul li {
+	float: left;
+	overflow: hidden;
+	display: inline;
+	width: 33%;
+	/*border: 1px solid #ddd;*/
+}
+
+.nav a {
+	color: white;
+}
+
+.nav .btn {
+	display: block;
+}
+
+.intro-section {
+	/*border: 1px solid #ddd;*/
+}
+
+.intro-section img {
+	float: left;
+	overflow: hidden;
+	border: 1px solid white;
+	margin-right: 10px;
+	/*width: 45%;*/
+}
+
+.intro-section p {
+	padding: 10px;
+	/*width: 45%;*/
+}
+
+.about-me {
+	/*border: 1px solid #ddd;*/
+	padding: 20px;
+	color: white;
+}
+
+.portfolio {
+	/*border: 1px solid #ddd;*/
+}
+
+.portfolio img {
+	width: 100%;
+}
+
+.label {
+	clear: both;
+	padding: 10px;
+	width: 100%;
+	margin-top: 0px;
+	background: #4aaaa5;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.label:hover {
+	background-color: pink;
+	color: red;
+}
+
+.left {
+	float: left;
+	width: 45%;
+	margin: 20px 0;
+	background: #eee;
+	position: relative;
+	display: block;
+}
+
+.right {
+	float: right;
+	width: 45%;
+	margin: 20px 0;
+	background: #eee;
+	position: relative;
+	display: block;
+}
+
+.contact {
+
+}
+
+input {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+.contact .btn {
+	clear: both;
+	/*float: none;*/
+	/*overflow: hidden;*/
+}
+
+.aside {
+	/*border: 1px solid #ddd;*/
+}
+
+.aside h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #ddd;
+}
+
+.aside ul {
+	padding-top: 20px;
+}
+
+.aside li {
+  float: left;
+  overflow: hidden;
+  width: 33%;
+  /*border: 1px solid #ddd;*/
+  margin: 0 auto;
+}
+
+.aside img {
+	margin: 0 auto;
+	display: block;
+}
+
+.footer {
+	/*border: 1px solid #ddd;*/
+	padding: 20px;
+	background-color: #eee;
+	margin-top: 20px;
+}
+
+.footer p {
+	text-align: center;
+}
