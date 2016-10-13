@@ -158,6 +158,16 @@ textarea {
 	display: block;
 }
 
+@keyframes bg-color-change {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.bg-color-change {
+    animation-name: bg-color-change;
+    animation-duration: 2s;
+}
+
 .footer {
 	padding: 20px;
 	background-color: #eee;
